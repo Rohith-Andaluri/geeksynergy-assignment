@@ -42,6 +42,7 @@ const Home = () => {
           
         const url = 'https://hoblist.com/api/movieList'
         const options = {
+            mode: 'no-cors'
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
