@@ -1,0 +1,103 @@
+.login-form-container {
+    background-image: url('https://res.cloudinary.com/drvfh1ajc/image/upload/v1690782956/movie-background_xfas0a.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.logo {
+    height: 50px;
+    background-color: #f90505;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px; 
+    margin-bottom: 35px;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 2px 3px #2a2a26;
+    padding: 35px 20px 35px 20px;
+    width: 50vh;
+    background-color: #2a2a26;
+    border-radius: 25px;
+}
+.input-container {
+    background-color: #ffffff35;
+    padding: 12px 12px 12px 12px;
+    border-radius: 30px; 
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.input-icon {
+    color: #ffffff;
+    margin-right: 10px;
+    height: 15px;
+}
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.login-button {
+    width: 90%;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    background-color: #fc636b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0px 25px 0px;
+}
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.signup-desc {
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 2px;
+    
+}
+.signup-link {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color:  #ffffff60;
+    border-radius: 5px;
+    padding: 5px;
+    width: auto;
+}
+
+.link {
+    text-decoration: none;
+}
+.error-msg {
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fd0404;
+}
